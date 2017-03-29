@@ -3,7 +3,7 @@ gulp快速构建项目
 
 ### gulp安装步骤
 
-* 安装node.js
+** 安装node.js
 
 window下，下载node安装即可。 node下载地址：http://nodejs.cn/download/ 安装比较简单，基本一直下一步即可，安装路径随意。
 
