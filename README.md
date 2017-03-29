@@ -33,7 +33,32 @@ npm服务器在国外，网络影响大，甚至还会遇到需要翻墙才能�
 
 * 项目文件根目录新建package.json
 
+package.json是基于nodejs项目必不可少的配置文件，它是存放在项目根目录的普通json文件重点内容
 
+示例：进入 D:/WWW/test 项目文件夹中
+
+![](http://g.hiphotos.baidu.com/exp/w=500/sign=a97812fb32fae6cd0cb4ab613fb20f9e/3812b31bb051f819b84bf086ddb44aed2f73e794.jpg)
+
+执行命令 cnpm init 来新建package.json
+
+![](http://d.hiphotos.baidu.com/exp/w=500/sign=10d86e8b3e12b31bc76ccd29b6193674/908fa0ec08fa513d45c29e123a6d55fbb3fbd996.jpg)
+
+注：可不使用cnpm init方式，可选择手动创建package.json配置文件
+
+* 本地安装gulp
+
+注：全局安装gulp是为了执行gulp任务，本地安装gulp则是为了调用gulp插件的功能<br>
+进入你的项目文件路径中后，执行cnpm install gulp --save-dev
+
+* 安装gulp插件
+
+例如安装gulp-sass gulp-less gulp-rename gulp-jshint gulp-concat gulp-uglify gulp-clean-css
+进入你的项目文件路径中后，执行cnpm install gulp-sass gulp-less gulp-rename gulp-jshint gulp-concat gulp-uglify gulp-clean-css --save-dev
+
+* 新建gulpfile.js
+
+gulpfile.js是gulp的配置文件，放于根目录中。
+未完待续。。。
 
 参考文章<br>
 http://jingyan.baidu.com/article/14bd256e7f7d7fbb6d2612c4.html <br>
