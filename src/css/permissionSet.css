@@ -1,0 +1,284 @@
+.noaccountNum-warpper .search-tip{
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    color: #9C9999;
+     cursor: pointer;
+}
+
+
+.permissionset{
+    margin-left: -42px !important;
+}
+.permission select{
+    width:159px;
+ }
+.permission .range{
+    margin-left: -30px !important;
+}
+.permission .word-size{
+    font-size: 13px;
+    margin-left: 5px;
+}
+.permission .range-pro{
+    padding: 0;
+}
+.permission .choose-num{
+    width: 130px;
+    font-size: 12px;
+    margin-top: 4px;
+   /*  margin-left: -14px; */
+}
+.permission .tip-select{
+    margin-left: -10px !important;
+}
+.select-tip{
+    margin-left: -10px !important;
+    color: #19ac9e;
+    font-size: 13px; cursor: pointer;
+}
+.permission .cont-time{
+    width: 98px;
+    height: 26px;
+}
+.permission .setting-point{
+    font-size: 20px;
+    position: absolute;
+    left: 62px;
+    top: 4px;
+    color: red;
+}
+.permission .info-operate{
+    font-size: 13px;
+    padding-left: 7px;
+    margin-top: 2px;
+}
+.permission .info-oper{
+    margin-left: 12px;
+    font-size: 12px;
+}
+.authority-list{
+    background-color: #f1f1f1;
+    width: 379px;
+    margin: 32px 0 6px 0;
+    max-height: 100px;
+    overflow: auto;
+    padding: 9px 10px 0 10px;
+}
+.authority-list .authority-item{
+    padding: 0 10px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    margin: 0 5px 10px 5px;
+    display: inline-block;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: #19ac9e;
+}
+.authority-list .authority-item:hover{
+    background-color: #079083;
+}
+.authority-list .authority-item i{
+    margin-left: 9px;
+}
+/*ģ�����-ѡ���Ʒ*/
+#selectpro-Warpper{
+    width: 278px;
+    height: 405px;
+    display: none;
+    position: absolute;
+    top:15px;
+    right: -95px;
+    background-color: #fff;
+    z-index: 9999;
+    -moz-box-shadow:0 0 24px rgba(0,0,0,.3);
+    -webkit-box-shadow:0 0 12px rgba(0,0,0,3);
+    -o-box-shadow: 0 0 12px rgba(0,0,0,.3);
+    box-shadow:0 0 12px rgba(0,0,0,.3);
+}
+
+#selectpro-Warpper .user-tags{
+    height: 295px;
+    overflow-y: auto;
+    margin: 42px 0 0 0;
+}
+#selectpro-Warpper .user-tags li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+}
+
+#selectpro-Warpper .user-tags li a{
+
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    color: #6f8092;
+    text-decoration: none;
+    cursor: pointer;
+}
+#selectpro-Warpper .user-tags li a:hover{
+    background-color: #f1f1f1;
+}
+#selectpro-Warpper .user-tags li a span{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 203px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+#selectpro-Warpper .user-tags li a span i{
+    margin:  0 10px 0 8px;
+}
+
+#selectpro-Warpper .label-sign{
+    margin-left: 10px;
+}
+
+#selectpro-Warpper .nav-search {
+    position: absolute;
+    top:50px;
+    right: 12px;
+    line-height: 24px;
+}
+#selectlicense-Warpper{
+    width: 278px;
+    height: 405px;
+    display: none;
+    position: absolute;
+    top:15px;
+    right: -95px;
+    background-color: #fff;
+    z-index: 9999;
+    -moz-box-shadow:0 0 24px rgba(0,0,0,.3);
+    -webkit-box-shadow:0 0 12px rgba(0,0,0,3);
+    -o-box-shadow: 0 0 12px rgba(0,0,0,.3);
+    box-shadow:0 0 12px rgba(0,0,0,.3);
+}
+
+#selectlicense-Warpper .user-tags{
+    height: 295px;
+    overflow-y: auto;
+    margin: 42px 0 0 0;
+}
+#selectlicense-Warpper .user-tags li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+}
+#selectlicense-Warpper .user-tags li a{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    color: #6f8092;
+    text-decoration: none;
+    cursor: pointer;
+}
+#selectlicense-Warpper .user-tags li a:hover{
+    background-color: #f1f1f1;
+}
+#selectlicense-Warpper .user-tags li a span{
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 203px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+#selectlicense-Warpper .user-tags li a span i{
+    margin:  0 10px 0 8px;
+}
+#selectlicense-Warpper .label-sign{
+    margin-left: 10px;
+}
+#selectlicense-Warpper .nav-search {
+    position: absolute;
+    top: 50px;
+    right: 12px;
+    line-height: 24px;
+}
+.permission input[type='checkbox'] + label:before{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    background:url(../../common/images/search_btn.png) no-repeat;
+    content: '';
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 0 !important;
+    top: 6px;
+    background-position: 0 -33px;
+    vertical-align: middle;
+}
+
+.permission input[type='checkbox']:checked + label:before{
+    background-position: 0 -49px;
+}
+.permission input[type="checkbox"] {
+    margin: 5px -8px 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+.permission .number-license{
+    height: 33px;
+    border-left: 1px dashed #d7d7d7;
+}
+.number-license .box-man{
+    padding: 0;
+}
+.num-license{
+    padding: 0;
+}
+
+.number-license .box-man:before{
+    content: " ";
+    border-top: 1px dashed #d7d7d7;
+    display: inline-block;
+    width: 7px;
+}
+.number-license .box-man input[type='checkbox'] + label:before{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    background:url(../../common/images/search_btn.png) no-repeat;
+    content: '';
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    left: 6px !important;
+    top: 6px;
+    background-position: 0 -33px;
+    vertical-align: middle;
+}
+
+.number-license .box-man input[type='checkbox']:checked + label:before{
+    background-position: 0 -49px;
+}
+.dotted-line{
+    border-bottom:1px dashed #e5e5e5;
+    margin-top:20px;
+}
+.dotted-lines{
+    border-bottom:1px dashed #e5e5e5;
+}
+.dotte-line{
+    border-bottom:1px dashed #e5e5e5;
+    margin-top: 14px;
+}
+.permissionbox {
+	padding-left: 22px !important;
+}
+
+
+

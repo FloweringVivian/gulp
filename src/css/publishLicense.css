@@ -1,0 +1,214 @@
+.hidden_table {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+
+
+.hidden_tableFoots {
+    position: absolute;
+    bottom: 10px;
+    /* float: right; */
+    right: 130px;
+    width: 60px;
+    height: 40px;
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+
+.hidden_tableHeadClose {
+    float: right;
+    margin-right: 20px;
+    margin-top: 19px;
+    color: #fff;
+    cursor: pointer;
+}
+.batchreleaseTable_f > div {
+    margin:0 auto;
+}
+.batch_allTxt > div {
+    float: left;
+    width: 50%;
+    height: 370px;
+    margin-top: 45px;
+
+}
+
+#view-details_modal .page-content{
+	padding:0px;
+}
+
+#view-details_modal .batch_allTxt > div{
+	float: left;
+    width: 50%;
+     margin-top: 0px;
+}
+ul li {
+    list-style:none;
+}
+
+#batchrelease-btn {
+    position: relative;
+    left: 20px;
+}
+
+.delTemplateBatch , .delUserBatch {
+    margin-left:28px;
+    cursor: pointer;
+}
+
+.pronameTemplateBatch , .usernameTemplateBatch {
+    display: inline-block;
+    width: 320px;
+}
+.bathPublishBtn {
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+.bathPublishBtns {
+    height: 40px;
+    width: 80px;
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    right: 140px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+
+.delTemplateBatch_allmsg {
+    z-index: 9999;
+    display: none;
+    width: 150px;
+   
+    position: absolute;
+    right: 8px;
+    background-color: #19ac9e;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.delTemplateBatch_allmsg li{
+    font-size: 12px;
+    color: #fff;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.viewTemplateBatch,.viewUserBatch {
+    cursor: pointer;
+}
+
+
+.selse-txt{
+    width: 440px;
+    list-style: none;
+  	height:250px;
+    overflow-y: auto;
+    margin: 50px 30px ;
+}
+
+#view-details_modal .selse-txt {
+	  	height:285px;
+}
+.show_info,.show_infoUser{
+    padding: 9px 20px;
+    color: #909090;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.status-nav li.batchpublisactive{
+    background-color: #19ac9e;
+    color:#fff;
+}
+
+.hidden_tableHead{
+    width: 100%;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.status-nav{
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+.status-nav li{
+    margin: 0 40px;
+    width: 120px;
+    float: left;
+    color: #393939;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.detail-success{
+ 	height:40px;
+ 	margin: 0 38px;
+}
+
+.detail-success span{
+    margin: 0 20px;
+}
+
+
+#gbox_batchreleaseTable,#gbox_selectuserTable{
+    width: 460px;
+}
+#gbox_batchreleaseTable .ui-jqgrid-hbox .ui-jqgrid-htable,#gbox_selectuserTable .ui-jqgrid-hbox .ui-jqgrid-htable{
+    width: 460px !important;
+}
+.batchreleaseTable_f .batchreleasebox{
+    float: left;
+    width: 460px; 
+    margin-left: 26px;
+}
+.batchreleaseTable_f .right_arrow{
+    float: left;  
+    margin: 140px 40px;
+}
+.batchreleaseTable_f .right_arrow i{
+	cursor: pointer;
+    font-size: 50px;
+    color: #19ac9e;
+}
+.batchreleaseTable_f .batchrelease-right{
+    float: left;
+    width: 460px;
+    height: 348px;
+    border: 1px solid #19ac9e;
+}
+#userJoinList,#templateJoinList li {
+	list-style:none;
+}
+#pulishLicense_modal .nav-search {
+	left: 227px;
+}
+.tem-numbers{
+margin: -20px 30px;
+}
+.tem-numbers p{
+ float: left;
+}
+.tem-numbers span{
+ float: left; margin: 0 32px;
+}
