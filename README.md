@@ -55,6 +55,21 @@ package.json是基于nodejs项目必不可少的配置文件，它是存放在�
 例如安装gulp-sass gulp-less gulp-rename gulp-jshint gulp-concat gulp-uglify gulp-clean-css
 进入你的项目文件路径中后，执行cnpm install gulp-sass gulp-less gulp-rename gulp-jshint gulp-concat gulp-uglify gulp-clean-css --save-dev
 
+gulp常用插件：
+
+sass的编译（gulp-sass）<br>
+less编译 （gulp-less）<br>
+重命名（gulp-rename）<br>
+自动添加css前缀（gulp-autoprefixer）<br>
+压缩css（gulp-clean-css）<br>
+js代码校验（gulp-jshint）<br>
+合并js文件（gulp-concat）<br>
+压缩js代码（gulp-uglify）<br>
+压缩图片（gulp-imagemin）<br>
+自动刷新页面（gulp-livereload，谷歌浏览器亲测，谷歌浏览器需安装livereload插件）<br>
+图片缓存，只有图片替换了才压缩（gulp-cache）<br>
+更改提醒（gulp-notify）<br>
+
 * 新建gulpfile.js
 
 gulpfile.js是gulp的配置文件，放于根目录中。
