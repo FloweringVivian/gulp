@@ -75,7 +75,6 @@ js代码校验（gulp-jshint）<br>
 gulpfile.js是gulp的配置文件，放于根目录中。
 
 
-
 参考文章<br>
 http://www.gulpjs.com.cn/<br>
 http://jingyan.baidu.com/article/14bd256e7f7d7fbb6d2612c4.html 
